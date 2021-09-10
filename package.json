@@ -5,6 +5,11 @@
   "repository": "https://github.com/zfchung/feature-toggle-sample-1.git",
   "author": "ZF Chung (Zack) <zfchung1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./dist",
+    "dev": "ts-node ./src",
+    "build": "tsc"
+  },
   "dependencies": {
     "typescript": "^4.4.2"
   },
